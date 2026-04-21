@@ -34,8 +34,8 @@ datasets:
     noise: 0
     name: BlindDN_Val
     type: PairedImageDataset
-    dataroot_gt: data/val_sharp/001
-    dataroot_lq: data/val_blur/001
+    dataroot_gt: data/val_sharp
+    dataroot_lq: data/val_blur
     filename_tmpl: '{}'
     io_backend:
       type: disk
